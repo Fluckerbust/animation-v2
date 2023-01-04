@@ -1,0 +1,52 @@
+body {
+    width:80%;
+    height:1000px;
+    margin: 0 auto;
+}
+.color2  {
+    animation: changeColor 5s alternate-reverse 2;
+    background-image: url(./gradient-neon-color-j6za9sns9fd4l245.jpg);
+    background-size: 0px 4200px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    
+    
+}
+
+div {
+    margin: 0 auto;
+    width: 600px;
+    
+    display: flex;
+}
+
+#path35:hover {
+    animation: changeColor 5s alternate-reverse 2;
+}
+
+@keyframes changeColor {
+ 0% { 
+
+ 
+}
+
+ 50% {
+    background-size: 1000px 4200px;
+
+
+
+}
+
+ 100% {
+  background-size: 0px 4200px;
+  background-position: left;
+}
+}
+
+
+
+
+
+ 
+   
